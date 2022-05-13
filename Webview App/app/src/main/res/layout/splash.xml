@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C0C0C0">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/splash_image" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dip"
+        android:visibility="invisible"
+        android:text="Version "/>
+    <LinearLayout
+        android:id="@+id/lvSplashInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:background="@android:color/black">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="SABİS"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/txtPercent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="0% of the total"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textColor="#9DBA32"/>
+        <TextView
+            android:id="@+id/txtFilename"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="File name: xxxxx"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SABİS Mobil Uygulama</string>
+    <string name="error_message">Hata oluştu, Lütfen İnternet bağlantınızı kontrol ediniz.</string>
+    <string name="notification_error_ssl_cert_invalid">SSL HATASI! Lütfen gerekli izinleri verin</string>
+    <string name="exit_app">Uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="loading_message">Uygulama yükleniyor, lütfen bekleyiniz..</string>
+</resources>
